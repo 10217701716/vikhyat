@@ -1,0 +1,63 @@
+<html>
+    
+    <head>
+        
+        <script type= text/javascript src="test.js">
+            
+        </script>
+        <link rel="stylesheet" type="text/css" href="test.css">
+    </head>
+    <body>
+        <div id="div1"> 
+            <div class="styling">
+            <center><font size="+6"><div class="glow">Jammed SlideShow</div></font></center>
+            <p><B><font size="+2">Please Insert the Images(max. 10)</font></B>
+        </p></br>
+    <input type="file" id="pic" accept="image/*" onechange = "openFile(event)" multiple></br>
+    <p>Select the type of animation you want</p>
+    <select id="anim">
+        <option value="FadeIn">FadeIn</option>
+        <option value="FadeInOut" selected>FadeInOut</option>
+        <option value="FadeOut">FadeOut</option>
+    </select>
+        <p>
+            Select the audio you want to enter
+        </p>
+        <select id="music">
+        
+  
+            <option value="1.mp3"><h3>Faded</h3></option>
+ 
+            <option value="2.mp3"><h3>Spectre</h3></option>
+ 
+            <option value="3.mp3"><h3>Legends Never Die</h3></option>
+
+        </select></br>
+<!--<audio
+        controls
+        src="1.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+</audio><B><h3>Faded</h3></B></br>
+<audio
+        controls
+        src="2.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+</audio><B><h3>Spectre</h3></B></br>
+<audio
+        controls
+        src="3.mp3">
+            Your browser does not support the
+            <code>audio</code> element.
+        </audio><B><h3>Legends Never Die</h3></B></br>--></br>
+        <input type="submit" onclick="funcOne()">
+</div>
+        </div>
+<div id="div2" style="display: none;">
+	<div id='images' style='text-align:center;position:absolute;top:50%;left:0;right:0;transform:translateY(-50%);' ></div>
+	<audio id='bgmusic' autoplay style="display:none" loop ></audio>
+</div>
+     </body>
+    
+</html>

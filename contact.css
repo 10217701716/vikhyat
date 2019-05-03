@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("back3.jpeg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    color: red;
+}
+h2{
+    text-align: center;
+    padding: 20px;
+}
+.contact{
+    background: #2d85b0;
+    width: 600px;
+    margin: 0px 0px 0px 500px;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+}
+#contact{
+    margin-left: 50px;
+}
+label{
+    color: white;
+    font-family: tahoma;
+    font-size: 20px;
+    font-style: italic;
+}
+#name{
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    outline: 0;
+    padding: 6px;
+    font-family: sans-serif;
+}
+#mobile{
+    width: 200px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#mob{
+    width: 65px;
+    padding: 5px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+#submit{
+    width: 150px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: monospace;
+    font-style: italic;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+}
+.clicked{
+    background: #2d85b0;
+    width: 600px;
+    margin: 0px 0px 0px 500px;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+    padding: 20px;
+    
+}

@@ -1,0 +1,35 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta name="Web-Tech Project">
+        <title>JAMMED SLIDESHOW</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <a href='#' class="logo"><img src="js.png"></a>
+            <div class="menu-toggle"></div>
+            <nav>
+                <ul>
+                    <li><a href="Main.html" class="active">Home</a></li>
+                    <li><a href="test.html">Let's Go</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="clearfix"></div>
+        </header>
+        
+        <iframe src='home.html' seamlesss border=0 style='border:0;overflow:hidden;height:400px;' width=100% ></iframe>
+        <script
+  src="jquery.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('.menu-toggle').click(function(){
+                $('.menu-toggle').toggleClass('active')
+                $('nav').toggleClass('active')
+                })
+            })
+        </script>
+    </body>
+</html>

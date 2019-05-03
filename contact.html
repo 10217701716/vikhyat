@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>Contact Form</title>
+        <link rel="stylesheet" type="text/css" href="contact.css">
+        <script type="text/javascript">
+            function funcOne(e)
+            {
+                e.preventDefault();
+               document.getElementById("div1").style.display = "none"; 
+               document.getElementById("div2").style.display = "block"; 
+            }
+        </script>
+    </head>
+    
+    <body>
+        <h1>Contact Form</h1>
+        <div class="contact" id="div1">
+            <h2>Enter The Details Here</h2>
+            <form method="post" id="contact" action="">
+                <label>First Name :</label> <br>
+                <input type="text" name="Fname" id="name" placeholder="Enter your intials"><br><br>
+                <label>Last Name :</label> <br>
+                <input type="text" name="Lname" id="name" placeholder="Enter your surname"><br><br>
+                <label>Mobile Number :</label> <br>
+                <select id="mob">
+                    <option>+91</option>
+                    <option>+01276</option>
+                    <option>+011</option>
+                </select> &nbsp;
+                <input type="number" name="mobile" id="mobile" placeholder="Enter your Contact No."><br><br>
+                <label>Email :</label> <br>
+                <input type="email" name="mail" id="mail" placeholder="Enter you E-Mail Address"><br><br>
+                e<label>Suggestions/Feedback :</label> <br>
+                <textarea rows="15" cols="68" placeholder="Provide Your Valuable Suggestion Or Feedback"></textarea><br><br>
+                <input type="SUBMIT" value="Submit" id="submit" onclick="funcOne(event)">
+            </form>
+        </div>
+        <div class="clicked" id="div2" style="display: none">
+            <p>Your Form Has Been Submitted.</p>
+        </div>
+    </body>
+</html>
